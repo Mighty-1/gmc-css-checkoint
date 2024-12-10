@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mighty Akuneme - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="font-roboto">
+    <header class="header">
+        <h1 class="title">Mighty Akuneme</h1>
+        <p class="subtitle">Full Stack Developer</p>
+    </header>
+
+    <nav class="navigation">
+        <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About Me</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>I am Mighty Akuneme, a passionate and dedicated full-stack developer. I love solving problems and creating web applications that make life easier.</p>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Finance UI</h3>
+                <p>Replicating the UI of a finance UI using HTML, CSS</p>
+            </div>
+            <div class="project">
+                <h3>Rest Api</h3>
+                <p>creating endPoints</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Mighty Akuneme. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
